@@ -68,3 +68,4 @@ group :development do
 end
 gem 'cancancan', '~> 3.6', '>= 3.6.1'
 gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'devise_invitable', '~> 2.0', '>= 2.0.9'

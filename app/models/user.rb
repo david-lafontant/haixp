@@ -4,5 +4,5 @@ class User < ApplicationRecord
   devise :invitable, :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
          :confirmable, :lockable, :trackable
-  enum role: [:seller, :admin]
+  enum role: %i[seller admin]
 end

@@ -158,7 +158,7 @@ Devise.setup do |config|
   # Ensure that invited record is valid.
   # The invitation won't be sent if this check fails.
   # Default: false
-  # config.validate_on_invite = true
+  config.validate_on_invite = true
 
   # Resend invitation if user with invited status is invited again
   # Default: true
@@ -358,5 +358,5 @@ Devise.setup do |config|
 
   # When set to false, does not sign a user in automatically after their password is
   # changed. Defaults to true, so a user is signed in automatically after changing a password.
-  # config.sign_in_after_change_password = true
+  config.sign_in_after_change_password = true
 end
